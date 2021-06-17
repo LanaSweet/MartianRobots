@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="AnnotationsProject/target/classes/MartiansRobots.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/MartianRobots/target/classes/MartianRobots.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <folder path="/MartianRobots/target"/>
+        <file path="/MartianRobots/pom.xml"/>
+        <javaElement handleIdentifier="=MartianRobots/src\/main\/java"/>
+        <folder path="/MartianRobots/src"/>
+        <javaElement handleIdentifier="=MartianRobots/src\/main\/resources"/>
+        <javaElement handleIdentifier="=MartianRobots/src\/test\/java"/>
+        <javaElement handleIdentifier="=MartianRobots/src\/test\/resources"/>
+        <file path="/MartianRobots/.classpath"/>
+        <file path="/MartianRobots/.project"/>
+    </selectedElements>
+</jardesc>
