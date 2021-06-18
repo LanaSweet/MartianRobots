@@ -88,8 +88,8 @@ public class Main {
 			 bufferedWriter.newLine();
 
 		} else {
-			System.out.println("The input is not valid, the dimensions of the grid con not exceed (50,50)");
-			bufferedWriter.write("The input is not valid, the dimensions of the grid con not exceed (50,50)");
+			System.out.println("The input is not valid, the dimensions of the grid can not exceed (50,50)");
+			bufferedWriter.write("The input is not valid, the dimensions of the grid can not exceed (50,50)");
 			}
 				
 		bufferedReader.close();
