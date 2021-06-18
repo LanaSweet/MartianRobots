@@ -17,7 +17,7 @@ This app allow you to enter the instructions for the robot to move around and as
     *   Right: the robot turns right 90 degrees and remains on the current grid point.
     *   Forward: the robot moves forward one grid point in the direction of the current orientation and maintains the same orientation.
 
-Since the grid is rectangular and bounded (...yes Mars is a strange planet), a robot that moves "off" an edge of the grid is lost forever. However, lost robots leave a robot "scent" that prohibits future robots from dropping off the world at the same grid point. The scent is left at the last grid position the robot occupied before disappearing over the edge. An instruction to move "off" the world from a grid point from which a robot has been previously lost is simply ignored by the current robot.
+Since the grid is rectangular and bounded (...yes Mars is a strange planet), a robot that moves "off" an edge of the grid is lost forever. However, lost robots leave a robot "scent" that prohibits future robots from dropping off the world at the same grid point. The scent is left at the last grid position the robot occupied before disappearing over the edge. An instruction to move "off" the world from a grid point from which a robot has been previously lost and it prevent the current robot of falinng off the grid. 
 
 ## Example of an input:
 ```
