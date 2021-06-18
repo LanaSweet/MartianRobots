@@ -84,7 +84,7 @@ public class Main {
 			//Reading route 
 			String route = bufferedReader.readLine().trim();
 
-			 bufferedWriter.write(String.valueOf(routeImplementation(robot1, route)));
+			 bufferedWriter.write(routeImplementation(robot1, route));
 			 bufferedWriter.newLine();
 
 		} else {

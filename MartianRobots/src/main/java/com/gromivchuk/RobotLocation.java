@@ -60,8 +60,7 @@ public class RobotLocation {
 				break;
 				
 			}			
-		}
-		if (turn.equals("L")) {
+		} else 	if (turn.equals("L")) {
 			switch (this.direction) {
 			case "E":
 				this.direction="N";
@@ -103,7 +102,6 @@ public class RobotLocation {
 			this.y++;
 			return true;
 			} else return false;
-			
 		}
 		return false;
 	}
